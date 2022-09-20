@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/952e6665b5.js" crossorigin="anonymous"></script>
+</head>
+<body class="form__body">
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="https://michaeldlbyers.ca/index.html" id="navbar__logo">Michael Byers</a>
+            <a href="https://michaeldlbyers.ca/index.html" class="navbar__links2" id="home__btn">Home</a>
+        </div>
+    </nav>
+
+    <!-- Form -->
+    <div class="form__container">
+        <form action="https://formsubmit.co/michael.byers2007@gmail.com" method="POST">
+            <h3>Get In Touch</h3>
+            <h4>Your Name</h4>
+            <input type="text" id="name" placeholder="John Doe" required name="Name">
+            <h4>Your Email</h4>
+            <input type="email" id="email" placeholder="johndoe@email.com" required name="Email">
+            <h4>How Can I Help You?</h4>
+            <textarea id="message" rows="1" placeholder="I need help with ..." required name="Message"></textarea>
+            <button type="submit" id="form__btn">Send</button>
+            <input type="hidden" name="_next" value="https://michaeldlbyers.ca/thankyou.html">
+        </form>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer__container2">
+        <div class="footer__links">
+        </div>
+        <section class="social__media">
+            <div class="social__media--wrap">
+                <div class="footer__logo">
+                    <a href="/" id="footer__logo">Michael Byers</a>
+                </div>
+                <p class="website__rights">© Michael Byers 2022. All Rights Reserved.</p>
+                <div class="social__icons">
+                    <a href="/" class="social__icons--link" target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="/" class="social__icons--link" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="/" class="social__icons--link" target="_blank">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                    <a href="/" class="social__icons--link" target="_blank">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
